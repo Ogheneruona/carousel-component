@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--charset is the encoding of this document, the standard is utf-8-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--what line 6 is saying is that the document is responsive-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Image Slider</title>
+  </head>
+  <body>
+    <h1 style="color:black;margin-left:395px;font-weight:bold"> Lagos Life.ng <h1>
+    <br/>
+    <br/>
+    <div class="wrapper" style="max-width:1000px;position:relative">
+    <img class="mySlides" src="Image1.jpg" style="width:100%">
+    <img class="mySlides" src="Image3.jpg" style="width:100%">
+    <img class="mySlides" src="Image4.jpg" style="width:100%">
+    <!--this lists the pictures normally like any other listing function-->
+    <a class="btn1" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"><span id="btn1">&lt;</span></a>
+    <a class="btn2" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)"><span id="btn1">&gt;</span></a>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
